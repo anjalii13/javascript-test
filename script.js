@@ -97,7 +97,7 @@ async function taskA() {
 }
 
 async function taskB() {
-    const randomDelay = Math.random() * 500 + 500; 
+    const randomDelay = Math.random() * 700 + 700; 
     await delay(randomDelay);
     console.log('Task B completed');
 }
